@@ -2,15 +2,13 @@
   "name": "dbackup",
   "version": "1.0.0",
   "description": "database backup to oss",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "back",
     "backup",
-    "mongodb",
-    "mysql"
+    "mongodb"
   ],
   "author": "guosen",
   "license": "ISC",
