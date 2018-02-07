@@ -1,4 +1,4 @@
-# MongoDBackupToOss.js 中 设置oss 秘钥
+# BackupToOss.js 中 设置oss 秘钥
 
     //region: '<Your region>',
     //accessKeyId: '<Your AccessKeyId>',
