@@ -27,3 +27,14 @@
 #linux系统设置定时任务
  
     定时任务配置：0 3 * * * /dbackup/MongoDBackup.sh >/dev/null 2&>1
+
+#ssh免密登录配置
+
+     ssh免密登录-------start---------------------------------
+     1客户端生成公钥：ssh-keygen -t rsa
+     2上传公钥到ssh服务端,并追加入.ssh/authorized_keys 中
+     3设置权限：服务端 .ssh chmod 设为700 authorized_keys 设为600
+     4---客户端执行： eval "$(ssh-agent -s)"
+     5---客户端执行：ssh-add
+     6 客户端测试ssh与scp是否免密
+     ssh免密登录-------end---------------------------------------
